@@ -175,7 +175,7 @@ nav {
 .arrow-img {
   z-index: -1;
   position: absolute;
-  top: -65%;
+  top: -85%;
   right: 3%;
 }
 .feature {
@@ -335,6 +335,7 @@ nav {
     background: #ecf8ff;
     margin-top: 100px;
   }
+
   
   .courses-offered>div:first-child>p {
     text-align: center;
@@ -363,13 +364,40 @@ nav {
   }
   
   .card1 {
+    position: relative;
     max-width: 498px;
     height: 563px;
     border-radius: 9px;
-    border: 2px solid #2f80ed;
+    border: 1px solid #E2E2E2;
     background: #fff;
     padding: 10px;
     margin-left: 15px;
+  }
+  .card1:hover{
+    border:1px solid blue;
+  }
+  .upper-text{
+
+    color: #FFF;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  
+    border-radius: 7px;
+  border: 2px solid #2F80ED;
+  background:  #2F80ED;
+  display: inline-flex;
+  padding: 6px 15px;
+  align-items: flex-start;
+  gap: 18px;
+  
+  position:absolute;
+  top:-15px;
+  right:24%;
+  
   }
   
   .card1>div:first-child>img {
@@ -476,12 +504,15 @@ nav {
     max-width: 498px;
     height: 563px;
     border-radius: 9px;
-    border: 2px solid #2f80ed;
+    border: 1px solid #E2E2E2;
     background: #fff;
     padding: 30px 10px 10px 10px;
     margin-left: 15px;
   }
   
+  .card2:hover{
+    border:1px solid blue;
+  }
   .card2>h1 {
     color: #2b2f34;
     font-family: ABeeZee;
@@ -859,6 +890,18 @@ line-height: 150%; /* 18px */
     .for-arrow{
         margin: 10%;
         
+    }
+    .body-slide-container {
+      
+      height:50px;
+    }
+    .container{
+      height:50%;
+    }
+    #placement-btn{
+      margin-top: 50px;
+      width:80%;
+      
     }
     
   }
