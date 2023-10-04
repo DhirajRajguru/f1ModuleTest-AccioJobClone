@@ -141,6 +141,7 @@ nav {
 }
 
 .hero-row-2 {
+    
   width: 80%;
   margin: auto;
   margin-top: 1%;
@@ -152,15 +153,17 @@ nav {
 
 .hero-features {
   display: flex;
-  height: 77px;
+  /* height: 77px; */
   width: 80%;
   margin: auto;
   margin-top: 3%;
   /* padding: 15px 20px; */
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  border: 1px solid #e2e2e2;
+
+  border: 3px solid red;
+  /* border: 1px solid #e2e2e2; */
   background: #fff;
   box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
 }
@@ -177,22 +180,31 @@ nav {
 }
 .feature {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
+
+
 .f-row1 {
+    
+
   color: #2b2f34;
   font-family: ABeeZee;
   font-size: 20px;
   font-style: italic;
   font-weight: 400;
-  line-height: 130%; /* 26px */
+  line-height: 100%; 
 }
 .f-row2 {
   color: #4f4f4f;
+  
 
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 155%; /* 18.6px */
+  line-height: 100%; /* 18.6px */
   letter-spacing: 0.12px;
 }
 
